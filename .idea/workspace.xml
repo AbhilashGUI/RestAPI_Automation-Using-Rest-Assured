@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
-      <change afterPath="$PROJECT_DIR$/json_schema_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MiscOperations/Misc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/xml_dtd_schema.dtd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
     "TestNG.Getting_Started.simple_get_request.executor": "Run",
     "TestNG.Getting_Started.validate_json_response.executor": "Run",
     "TestNG.Getting_Started.validate_xml_response.executor": "Run",
-    "TestNG.Getting_Started.verify_status_line.executor": "Run",
+    "TestNG.Getting_Started.verify_status_line.executor": "Debug",
     "TestNG.Headers_And_Cookies.executor": "Run",
     "TestNG.Headers_And_Cookies.extract_response_cookies.executor": "Run",
     "TestNG.Headers_And_Cookies.extract_response_header.executor": "Run",
@@ -65,6 +62,7 @@
     "TestNG.Headers_And_Cookies.sending_response_headers.executor": "Run",
     "TestNG.Headers_And_Cookies.validate_response_header.executor": "Run",
     "TestNG.Misc.executor": "Run",
+    "TestNG.Misc.response_Aware_Matcher_Example.executor": "Run",
     "TestNG.Misc.specify_port.executor": "Run",
     "TestNG.Misc.validate_Xml_Namespace.executor": "Run",
     "TestNG.Misc.validate_response_time.executor": "Run",
@@ -92,6 +90,9 @@
     "TestNG.Schema_Validation.xml_xsd_schema_validation.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -102,35 +103,18 @@
       <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\post_put_delete" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Misc.response_Aware_Matcher_Example">
-    <configuration name="Misc" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Getting_Started.verify_status_line">
+    <configuration name="Getting_Started.extract_response_data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MiscOperations.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MiscOperations" />
-      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Misc.response_Aware_Matcher_Example" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MiscOperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MiscOperations" />
-      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
-      <option name="METHOD_NAME" value="response_Aware_Matcher_Example" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="extract_response_data" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,17 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Misc.validate_Xml_Namespace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.extract_single_value" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MiscOperations.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MiscOperations" />
-      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
-      <option name="METHOD_NAME" value="validate_Xml_Namespace" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="extract_single_value" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,17 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Misc.validate_response_time" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.validate_json_response" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MiscOperations.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MiscOperations" />
-      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
-      <option name="METHOD_NAME" value="validate_response_time" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="validate_json_response" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,17 +158,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Misc.validate_response_using_response_part" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Getting_Started.validate_xml_response" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MiscOperations.*" />
+          <option name="PATTERN" value="getting_started.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MiscOperations" />
-      <option name="MAIN_CLASS_NAME" value="MiscOperations.Misc" />
-      <option name="METHOD_NAME" value="validate_response_using_response_part" />
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="validate_xml_response" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Getting_Started.verify_status_line" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getting_started.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getting_started" />
+      <option name="MAIN_CLASS_NAME" value="getting_started.Getting_Started" />
+      <option name="METHOD_NAME" value="verify_status_line" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Misc.response_Aware_Matcher_Example" />
-        <item itemvalue="TestNG.Misc.validate_response_using_response_part" />
-        <item itemvalue="TestNG.Misc.validate_Xml_Namespace" />
-        <item itemvalue="TestNG.Misc.validate_response_time" />
-        <item itemvalue="TestNG.Misc" />
+        <item itemvalue="TestNG.Getting_Started.verify_status_line" />
+        <item itemvalue="TestNG.Getting_Started.extract_single_value" />
+        <item itemvalue="TestNG.Getting_Started.extract_response_data" />
+        <item itemvalue="TestNG.Getting_Started.validate_xml_response" />
+        <item itemvalue="TestNG.Getting_Started.validate_json_response" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758218471582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New code">
+      <option name="closed" value="true" />
+      <created>1758293711657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293711657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
