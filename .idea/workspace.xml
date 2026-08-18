@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="New code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getting_started/Getting_Started.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +37,7 @@
     "Maven.RESTAPIAutomationUsing_RESTAssured [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG.Auth.digest_authentication.executor": "Run",
     "TestNG.Auth.executor": "Run",
     "TestNG.Auth.paypal_test.executor": "Run",
@@ -52,7 +49,7 @@
     "TestNG.Getting_Started.simple_get_request.executor": "Run",
     "TestNG.Getting_Started.validate_json_response.executor": "Run",
     "TestNG.Getting_Started.validate_xml_response.executor": "Run",
-    "TestNG.Getting_Started.verify_status_line.executor": "Debug",
+    "TestNG.Getting_Started.verify_status_line.executor": "Run",
     "TestNG.Headers_And_Cookies.executor": "Run",
     "TestNG.Headers_And_Cookies.extract_response_cookies.executor": "Run",
     "TestNG.Headers_And_Cookies.extract_response_header.executor": "Run",
@@ -285,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758293711657</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Online project learning">
+      <option name="closed" value="true" />
+      <created>1787030798497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1787030798497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +306,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New code" />
-    <option name="LAST_COMMIT_MESSAGE" value="New code" />
+    <MESSAGE value="Online project learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Online project learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
