@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/create_employee.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_put_delete/Post_Put_Delete.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +67,7 @@
     "TestNG.Post_Put_Delete.delete_request.executor": "Run",
     "TestNG.Post_Put_Delete.executor": "Run",
     "TestNG.Post_Put_Delete.get_request_check.executor": "Run",
+    "TestNG.Post_Put_Delete.get_request_check2.executor": "Run",
     "TestNG.Post_Put_Delete.patch_request_using_json_object.executor": "Run",
     "TestNG.Post_Put_Delete.post_request.executor": "Run",
     "TestNG.Post_Put_Delete.post_request_using_json_object.executor": "Run",
@@ -304,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787031118492</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Online project learning">
+      <option name="closed" value="true" />
+      <created>1787045943325</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1787045943326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
