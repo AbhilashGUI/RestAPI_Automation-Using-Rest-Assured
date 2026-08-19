@@ -30,10 +30,10 @@ public class Schema_Validation {
 
             given()
                     .baseUri("http://data.fixer.io/api")
-                    .queryParam("access_key", "eaaaa33d3571fef962d994f117f202dd")
-                    .queryParam("Symbols", "INR")  // lowercase
-                    .when()
-                    .get("/latest")
+                    .basePath("/latest")
+                    .queryParam("access_key","eaaaa33d3571fef962d994f117f202dd")
+                    .queryParam("Symbols", "INR")
+                    .when().get()
                     .then()
                     .log().all()
                     .statusCode(200)
@@ -63,12 +63,12 @@ public class Schema_Validation {
 
         given()
                 .baseUri("https://api.openweathermap.org/data/2.5")
+                .basePath("/weather")
                 .queryParam("APPID", "5e76ce9abdf5914f0123cbd6303bafd7")
                 .queryParam("q", "London,uk")
                 .queryParam("mode", "xml").
-                when()
-                .get("/weather").
-                then()
+                when().get()
+                .then()
                 .body(matchesDtd(file))
                 .log().all()
                 .statusCode(200);
@@ -90,23 +90,21 @@ public class Schema_Validation {
     @Test
     public void xml_xsd_schema_validation() {
 
-        File file = new File("resources/xml_xsd_schema.xsd");
+        File file = new File("xml_xsd_schema.xsd");
 
         given()
                 .baseUri("https://api.openweathermap.org/data/2.5")
+                .basePath("/weather")
                 .queryParam("APPID", "8f5d911d86200c6e4d30a9e8d3877fe1")
                 .queryParam("q", "London,uk")
-                .queryParam("mode", "xml").
-                when()
-                .get("/weather").
-                then()
+                .queryParam("mode", "xml")
+                .when()
+                .get()
+                .then()
                 .body(matchesXsd(file))
                 .log().all()
                 .statusCode(200);
     }
-
-
-
 
 
 }

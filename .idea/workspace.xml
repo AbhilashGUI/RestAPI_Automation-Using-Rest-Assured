@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning">
+      <change afterPath="$PROJECT_DIR$/xml_dtd_schema.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml_xsd_schema.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/auth/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/auth/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/headers_and_cookies/Headers_And_Cookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_schema_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json_schema_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheme_validation/Schema_Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scheme_validation/xml_dtd_schema.dtd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +111,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\scheme_validation" />
       <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured" />
+      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\target" />
+      <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\scheme_validation" />
       <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\post_put_delete" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Schema_Validation.json_schema_validation">
+  <component name="RunManager" selected="TestNG.Schema_Validation.xml_xsd_schema_validation">
     <configuration name="Auth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
@@ -131,24 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Auth.digest_authentication" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="auth" />
-      <option name="MAIN_CLASS_NAME" value="auth.Auth" />
-      <option name="METHOD_NAME" value="digest_authentication" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Auth.paypal_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
@@ -160,24 +146,6 @@
       <option name="PACKAGE_NAME" value="auth" />
       <option name="MAIN_CLASS_NAME" value="auth.Auth" />
       <option name="METHOD_NAME" value="paypal_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Auth.post_A_Tweet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTAPIAutomationUsing_RESTAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="auth" />
-      <option name="MAIN_CLASS_NAME" value="auth.Auth" />
-      <option name="METHOD_NAME" value="post_A_Tweet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -203,13 +171,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Schema_Validation.xml_dtd_schema_validation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheme_validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scheme_validation" />
+      <option name="MAIN_CLASS_NAME" value="scheme_validation.Schema_Validation" />
+      <option name="METHOD_NAME" value="xml_dtd_schema_validation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Schema_Validation.xml_xsd_schema_validation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTAPIAutomationUsing_RESTAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheme_validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scheme_validation" />
+      <option name="MAIN_CLASS_NAME" value="scheme_validation.Schema_Validation" />
+      <option name="METHOD_NAME" value="xml_xsd_schema_validation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Schema_Validation.xml_xsd_schema_validation" />
+        <item itemvalue="TestNG.Schema_Validation.xml_dtd_schema_validation" />
         <item itemvalue="TestNG.Schema_Validation.json_schema_validation" />
         <item itemvalue="TestNG.Auth" />
         <item itemvalue="TestNG.Auth.paypal_test" />
-        <item itemvalue="TestNG.Auth.post_A_Tweet" />
-        <item itemvalue="TestNG.Auth.digest_authentication" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787111061572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Online project learning">
+      <option name="closed" value="true" />
+      <created>1787134287924</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1787134287924</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

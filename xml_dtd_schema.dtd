@@ -1,0 +1,116 @@
+<!ELEMENT current (
+        city,
+        temperature,
+        feels_like,
+        humidity,
+        pressure,
+        wind,
+        clouds,
+        visibility,
+        precipitation,
+        weather,
+        lastupdate
+        )>
+
+        <!ELEMENT city (
+                coord,
+                country,
+                timezone,
+                sun
+                )>
+        <!ATTLIST city
+                id      CDATA #REQUIRED
+                name    CDATA #REQUIRED
+                >
+
+        <!ELEMENT coord EMPTY>
+        <!ATTLIST coord
+                lon     CDATA #REQUIRED
+                lat     CDATA #REQUIRED
+                >
+
+        <!ELEMENT country (#PCDATA)>
+
+        <!ELEMENT timezone (#PCDATA)>
+
+        <!ELEMENT sun EMPTY>
+        <!ATTLIST sun
+                rise    CDATA #REQUIRED
+                set     CDATA #REQUIRED
+                >
+
+        <!ELEMENT temperature EMPTY>
+        <!ATTLIST temperature
+                value   CDATA #REQUIRED
+                min     CDATA #REQUIRED
+                max     CDATA #REQUIRED
+                unit    CDATA #REQUIRED
+                >
+
+        <!ELEMENT feels_like EMPTY>
+        <!ATTLIST feels_like
+                value   CDATA #REQUIRED
+                unit    CDATA #REQUIRED
+                >
+
+        <!ELEMENT humidity EMPTY>
+        <!ATTLIST humidity
+                value   CDATA #REQUIRED
+                unit    CDATA #REQUIRED
+                >
+
+        <!ELEMENT pressure EMPTY>
+        <!ATTLIST pressure
+                value   CDATA #REQUIRED
+                unit    CDATA #REQUIRED
+                >
+
+        <!ELEMENT wind (
+                speed,
+                gusts,
+                direction
+                )>
+
+        <!ELEMENT speed EMPTY>
+        <!ATTLIST speed
+                value   CDATA #REQUIRED
+                unit    CDATA #REQUIRED
+                name    CDATA #REQUIRED
+                >
+
+        <!ELEMENT gusts EMPTY>
+
+        <!ELEMENT direction EMPTY>
+        <!ATTLIST direction
+                value   CDATA #REQUIRED
+                code    CDATA #REQUIRED
+                name    CDATA #REQUIRED
+                >
+
+        <!ELEMENT clouds EMPTY>
+        <!ATTLIST clouds
+                value   CDATA #REQUIRED
+                name    CDATA #REQUIRED
+                >
+
+        <!ELEMENT visibility EMPTY>
+        <!ATTLIST visibility
+                value   CDATA #REQUIRED
+                >
+
+        <!ELEMENT precipitation EMPTY>
+        <!ATTLIST precipitation
+                mode    CDATA #REQUIRED
+                >
+
+        <!ELEMENT weather EMPTY>
+        <!ATTLIST weather
+                number  CDATA #REQUIRED
+                value   CDATA #REQUIRED
+                icon    CDATA #REQUIRED
+                >
+
+        <!ELEMENT lastupdate EMPTY>
+        <!ATTLIST lastupdate
+                value   CDATA #REQUIRED
+                >
