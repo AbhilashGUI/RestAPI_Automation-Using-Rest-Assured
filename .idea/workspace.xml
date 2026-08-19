@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning" />
+    <list default="true" id="ae3b4298-0c1f-4025-94e7-fd6cfad987e3" name="Changes" comment="Online project learning">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/request_parameters/Request_Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest_logging/Rest_Logging.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,11 +80,14 @@
     "TestNG.Request_Parameters.handling_form_data.executor": "Run",
     "TestNG.Request_Parameters.handling_multi_value_parameters.executor": "Run",
     "TestNG.Request_Parameters.handling_multiple_parameters.executor": "Run",
+    "TestNG.Request_Parameters.handling_multiple_query_parameters.executor": "Run",
     "TestNG.Request_Parameters.handling_path_parameter.executor": "Run",
     "TestNG.Request_Parameters.handling_query_parameters.executor": "Run",
     "TestNG.Rest_Logging.executor": "Run",
     "TestNG.Rest_Logging.log_all_details.executor": "Run",
+    "TestNG.Rest_Logging.log_body_and_header.executor": "Run",
     "TestNG.Rest_Logging.log_body_or_header.executor": "Run",
+    "TestNG.Rest_Logging.log_cookies_and_status.executor": "Run",
     "TestNG.Rest_Logging.log_cookies_or_status.executor": "Run",
     "TestNG.Rest_Logging.log_if_error.executor": "Run",
     "TestNG.Rest_Logging.log_if_validation_fails.executor": "Run",
@@ -103,18 +110,18 @@
       <recent name="C:\Users\Abhilash Sharma\IdeaProjects\REST API Automation Using REST Assured\src\test\java\post_put_delete" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Post_Put_Delete.get_request_check2">
-    <configuration name="Post_Put_Delete.delete_request" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Request_Parameters.handling_form_data">
+    <configuration name="Request_Parameters.handling_form_data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="request_parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="delete_request" />
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="METHOD_NAME" value="handling_form_data" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +129,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.get_request_check" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Request_Parameters.handling_multi_value_parameters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="request_parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="get_request_check" />
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="METHOD_NAME" value="handling_multi_value_parameters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.get_request_check2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Request_Parameters.handling_multiple_parameters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="request_parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="get_request_check2" />
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="METHOD_NAME" value="handling_multiple_parameters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,17 +165,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.patch_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Request_Parameters.handling_multiple_query_parameters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="request_parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="patch_request_using_json_object" />
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="METHOD_NAME" value="handling_multiple_query_parameters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,17 +183,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post_Put_Delete.put_request_using_json_object" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Request_Parameters.handling_path_parameter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTAPIAutomationUsing_RESTAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_put_delete.*" />
+          <option name="PATTERN" value="request_parameters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_put_delete" />
-      <option name="MAIN_CLASS_NAME" value="post_put_delete.Post_Put_Delete" />
-      <option name="METHOD_NAME" value="put_request_using_json_object" />
+      <option name="PACKAGE_NAME" value="request_parameters" />
+      <option name="MAIN_CLASS_NAME" value="request_parameters.Request_Parameters" />
+      <option name="METHOD_NAME" value="handling_path_parameter" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Post_Put_Delete.get_request_check2" />
-        <item itemvalue="TestNG.Post_Put_Delete.delete_request" />
-        <item itemvalue="TestNG.Post_Put_Delete.patch_request_using_json_object" />
-        <item itemvalue="TestNG.Post_Put_Delete.get_request_check" />
-        <item itemvalue="TestNG.Post_Put_Delete.put_request_using_json_object" />
+        <item itemvalue="TestNG.Request_Parameters.handling_form_data" />
+        <item itemvalue="TestNG.Request_Parameters.handling_path_parameter" />
+        <item itemvalue="TestNG.Request_Parameters.handling_multi_value_parameters" />
+        <item itemvalue="TestNG.Request_Parameters.handling_multiple_query_parameters" />
+        <item itemvalue="TestNG.Request_Parameters.handling_multiple_parameters" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787045943326</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Online project learning">
+      <option name="closed" value="true" />
+      <created>1787047273545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1787047273545</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
